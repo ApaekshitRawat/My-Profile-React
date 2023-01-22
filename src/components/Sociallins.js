@@ -1,5 +1,4 @@
 import { FaLinkedin, FaInstagramSquare, FaGithub } from "react-icons/fa";
-import { sociallinks } from "../data";
 const Sociallins = () => {
   return (
     <div className="icons">
