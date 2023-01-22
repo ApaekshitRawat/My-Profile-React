@@ -37,9 +37,9 @@ html {
   margin-bottom: 1rem;
   border-radius: 2rem;
   width: 700px;
-
+  box-shadow: 4px 4px 1px -2px rgb(33 40 65);
   max-width: 500px;
-  background-color: rgb(89, 114, 126);
+  background-color: rgb(80, 76, 115);
 }
 .resumeSection a {
   display: flex;
