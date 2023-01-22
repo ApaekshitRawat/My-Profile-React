@@ -1,4 +1,5 @@
-import { FaLinkedin, FaInstagramSquare, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
 const Sociallins = () => {
   return (
     <div className="icons">
@@ -9,7 +10,7 @@ const Sociallins = () => {
         <FaGithub size={"2rem"} />
       </a>
       <a href="https://www.instagram.com/apaekshit/">
-        <FaInstagramSquare size={"2rem"} />
+        <BsInstagram size={"2rem"} />
       </a>
     </div>
   );
