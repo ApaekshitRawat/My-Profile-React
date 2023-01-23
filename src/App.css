@@ -36,9 +36,9 @@ html {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 2rem;
-  width: 700px;
+  width: 20rem;
   box-shadow: 4px 4px 1px -2px rgb(33 40 65);
-  max-width: 500px;
+  max-width: 50rem;
   background-color: rgb(80, 76, 115);
 }
 .resumeSection a {
@@ -79,6 +79,7 @@ html {
 
 .description {
   flex: auto;
+  font-size: 0.4rem;
   color: white;
   margin: 3rem auto;
   text-transform: capitalize;
@@ -89,7 +90,7 @@ html {
 .projectIcons {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  width: 60rem;
+  width: 20rem;
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -110,4 +111,33 @@ html {
   letter-spacing: 5px;
   color: white;
   text-shadow: 2px 2px 4px #000000;
+}
+
+@media screen and (min-width: 860px) {
+  .description {
+    font-size: medium;
+    flex: auto;
+    color: white;
+    margin: 3rem auto;
+    text-transform: capitalize;
+    text-shadow: 4px 2px 4px rgb(0, 0, 0);
+    justify-content: center;
+  }
+  .projectIcons {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 60rem;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .resumeSection {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    width: 70rem;
+    box-shadow: 4px 4px 1px -2px rgb(33 40 65);
+    max-width: 50rem;
+    background-color: rgb(80, 76, 115);
+  }
 }
