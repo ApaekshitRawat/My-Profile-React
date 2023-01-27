@@ -3,7 +3,7 @@ import { BiCubeAlt, BiDirections, BiHide } from "react-icons/bi";
 const Projsects = () => {
   return (
     <div className="projectIcons">
-      <a href="https://simple-react-card-site.netlify.app/">
+      <a href="https://freakmenu.netlify.app/">
         <BiCubeAlt size={"50px"} />
       </a>
       <a href="https://freak-travells.netlify.app">
