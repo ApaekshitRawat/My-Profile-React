@@ -1,4 +1,4 @@
-import { BiCubeAlt, BiDirections, BiHide } from "react-icons/bi";
+import { BiCubeAlt, BiDirections, BiHide, BiGhost } from "react-icons/bi";
 
 const Projsects = () => {
   return (
@@ -11,6 +11,9 @@ const Projsects = () => {
       </a>
       <a href="https://freak-merchs.netlify.app/">
         <BiHide size={"50px"} />
+      </a>
+      <a href="https://freak-color-generator.netlify.app/">
+        <BiGhost size={"50px"} />
       </a>
     </div>
   );
