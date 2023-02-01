@@ -1,5 +1,5 @@
 import { BiCubeAlt, BiDirections, BiHide, BiGhost } from "react-icons/bi";
-
+import { MdOutlineLocalGroceryStore } from "react-icons/md";
 const Projsects = () => {
   return (
     <div className="projectIcons">
@@ -14,6 +14,9 @@ const Projsects = () => {
       </a>
       <a href="https://freak-color-generator.netlify.app/">
         <BiGhost size={"50px"} />
+      </a>
+      <a href="https://freak-grocery.netlify.app/">
+        <MdOutlineLocalGroceryStore size={"50px"} />
       </a>
     </div>
   );
