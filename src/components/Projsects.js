@@ -1,4 +1,10 @@
-import { BiCubeAlt, BiDirections, BiHide, BiGhost } from "react-icons/bi";
+import {
+  BiCubeAlt,
+  BiDirections,
+  BiHide,
+  BiGhost,
+  BiSidebar,
+} from "react-icons/bi";
 import { MdOutlineLocalGroceryStore } from "react-icons/md";
 const Projsects = () => {
   return (
@@ -17,6 +23,9 @@ const Projsects = () => {
       </a>
       <a href="https://freak-grocery.netlify.app/">
         <MdOutlineLocalGroceryStore size={"50px"} />
+      </a>
+      <a href="https://freak-sidebar-modal.netlify.app/">
+        <BiSidebar size={"50px"} />
       </a>
     </div>
   );
