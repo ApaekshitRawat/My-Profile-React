@@ -92,8 +92,11 @@ html {
   margin-bottom: 1rem;
   width: 20rem;
   height: auto;
-  display: flex;
-  justify-content: space-around;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 2rem;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .projectIcons a {
