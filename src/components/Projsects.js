@@ -6,6 +6,7 @@ import {
   BiSidebar,
 } from "react-icons/bi";
 import { MdOutlineLocalGroceryStore } from "react-icons/md";
+import { TfiLayoutSlider } from "react-icons/tfi";
 const Projsects = () => {
   return (
     <div className="projectIcons">
@@ -26,6 +27,9 @@ const Projsects = () => {
       </a>
       <a href="https://freak-sidebar-modal.netlify.app/">
         <BiSidebar size={"50px"} />
+      </a>
+      <a href="https://freak-slider.netlify.app/">
+        <TfiLayoutSlider size={"50px"} />
       </a>
     </div>
   );
