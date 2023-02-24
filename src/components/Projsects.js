@@ -4,6 +4,7 @@ import {
   BiHide,
   BiGhost,
   BiSidebar,
+  BiShoppingBag,
 } from "react-icons/bi";
 import { MdOutlineLocalGroceryStore } from "react-icons/md";
 import { TfiLayoutSlider } from "react-icons/tfi";
@@ -34,6 +35,9 @@ const Projsects = () => {
       </a>
       <a href="https://freak-stripe-menu.netlify.app/">
         <FaCcStripe size={"50px"} />
+      </a>
+      <a href="https://freak-cart.netlify.app/">
+        <BiShoppingBag size={"50px"} />
       </a>
     </div>
   );
