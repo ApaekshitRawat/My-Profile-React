@@ -7,6 +7,7 @@ import {
 } from "react-icons/bi";
 import { MdOutlineLocalGroceryStore } from "react-icons/md";
 import { TfiLayoutSlider } from "react-icons/tfi";
+import { FaCcStripe } from "react-icons/fa";
 const Projsects = () => {
   return (
     <div className="projectIcons">
@@ -30,6 +31,9 @@ const Projsects = () => {
       </a>
       <a href="https://freak-slider.netlify.app/">
         <TfiLayoutSlider size={"50px"} />
+      </a>
+      <a href="https://freak-stripe-menu.netlify.app/">
+        <FaCcStripe size={"50px"} />
       </a>
     </div>
   );
