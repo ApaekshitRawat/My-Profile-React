@@ -1,4 +1,4 @@
-import photo from "../images/photo.JPG";
+import photo from "../images/photo.jpg";
 const Profile = () => {
   return (
     <div>
