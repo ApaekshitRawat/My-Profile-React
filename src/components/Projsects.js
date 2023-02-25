@@ -30,7 +30,7 @@ const Projsects = () => {
         </a>
       </Tooltip>
       <Tooltip
-        content="A bootstrap page for selling Amime merchs"
+        content="A bootstrap page for selling Anime merchs"
         direction="top"
       >
         <a href="https://freak-merchs.netlify.app/">
