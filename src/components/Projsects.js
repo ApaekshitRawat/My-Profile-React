@@ -5,6 +5,7 @@ import {
   BiGhost,
   BiSidebar,
   BiShoppingBag,
+  BiDrink,
 } from "react-icons/bi";
 import { MdOutlineLocalGroceryStore } from "react-icons/md";
 import { TfiLayoutSlider } from "react-icons/tfi";
@@ -72,6 +73,11 @@ const Projsects = () => {
       <Tooltip content="Cart !!" direction="top">
         <a href="https://freak-cart.netlify.app/">
           <BiShoppingBag size={"50px"} />
+        </a>
+      </Tooltip>
+      <Tooltip content="Find your drinks here" direction="top">
+        <a href="https://freak-drinks.netlify.app/">
+          <BiDrink size={"50px"} />
         </a>
       </Tooltip>
     </div>
