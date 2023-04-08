@@ -7,9 +7,10 @@ import {
   BiShoppingBag,
   BiDrink,
 } from "react-icons/bi";
-import { MdOutlineLocalGroceryStore } from "react-icons/md";
+import { MdOutlineLocalGroceryStore, MdPlaylistAddCheck } from "react-icons/md";
 import { TfiLayoutSlider } from "react-icons/tfi";
 import { FaCcStripe } from "react-icons/fa";
+
 import Tooltip from "./Tooltip";
 const Projsects = () => {
   return (
@@ -78,6 +79,11 @@ const Projsects = () => {
       <Tooltip content="Find your drinks here" direction="top">
         <a href="https://freak-drinks.netlify.app/">
           <BiDrink size={"50px"} />
+        </a>
+      </Tooltip>
+      <Tooltip content="A Todo list" direction="top">
+        <a href="https://freak-task-manager.netlify.app/">
+          <MdPlaylistAddCheck size={"50px"} />
         </a>
       </Tooltip>
     </div>
