@@ -116,7 +116,7 @@ html {
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 250px) and (max-width: 767px) {
   /* Phones */
   .profilePicture {
     position: relative; /* Take it out of normal flow */
