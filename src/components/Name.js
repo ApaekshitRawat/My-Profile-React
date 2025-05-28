@@ -4,9 +4,8 @@ const Name = () => {
   return (
     <div className="name">
       <h1>
-        {nameData.firstName}
-        {` `}
-        {nameData.lastName}
+        <span className="name">{nameData.firstName}</span>{" "}
+        <span className="name">{nameData.lastName}</span>
       </h1>
     </div>
   );
